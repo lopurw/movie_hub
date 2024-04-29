@@ -1,0 +1,82 @@
+/* MoviePage.css */
+.movie-page {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.movie-details {
+  width: 80%;
+  height: 90%;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Добавлено свойство justify-content */
+
+  border-radius: 40px;
+  padding-left: 3em;
+  padding-right: 3em;
+  transition: transform 0.3s ease;
+}
+
+.movie-details-info {
+  /* float: right; Удаляем float */
+  margin-left: auto; /* Добавлено для прикрепления к правому краю */
+  text-align: right;
+
+  width: 60%;
+}
+
+.movie-details-info h2,
+.movie-details-info p {
+  font-size: 1.5rem; /* Увеличиваем размер шрифта текста */
+  color: #fff;
+}
+
+.similar-movies-carousel {
+  margin-top: 20px;
+}
+
+.img__container {
+  float: left;
+}
+.img__container img {
+  max-height: 70vh;
+}
+.img__container {
+  position: relative; 
+  overflow: hidden; 
+}
+
+.img__container img {
+  transition: filter 0.3s ease;
+}
+
+.img__container:hover img {
+  filter: blur(5px); 
+}
+
+.watch-trailer-button {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(
+    -50%,
+    -50%
+  ); 
+  padding: 10px 10px; 
+  background-color: #589078; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+  color: #fff;
+}
+
+.img__container:hover .watch-trailer-button {
+  opacity: 1; 
+}

@@ -1,0 +1,40 @@
+{
+  "hash": "022912b5",
+  "configHash": "6ee97c86",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "d5b7d2c1",
+  "optimized": {
+    "@mui/material/CircularProgress": {
+      "src": "../../node_modules/@mui/material/CircularProgress/index.js",
+      "file": "@mui_material_CircularProgress.js",
+      "fileHash": "304914c6",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "39a5abe5",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "b07c6384",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "5d151af3",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-KJUJBIHA": {
+      "file": "chunk-KJUJBIHA.js"
+    },
+    "chunk-W4VDMLRG": {
+      "file": "chunk-W4VDMLRG.js"
+    }
+  }
+}

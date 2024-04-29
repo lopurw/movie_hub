@@ -1,0 +1,62 @@
+.similar-movies-carousel {
+  margin-top: 40px;
+}
+
+.similar-movies-carousel h2 {
+  color: rgb(255, 255, 255);
+}
+
+.similar-movies-container {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  padding-bottom: 10px;
+  overflow-y: hidden;
+}
+
+.similar-movies {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: -10px;
+}
+
+.similar-movies > * {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  margin-right: -140px;
+  width: calc(20% - 10px) !important;
+}
+
+.similar-movies > *:first-child {
+  margin-left: 0;
+}
+
+.similar-movies-container::-webkit-scrollbar {
+  display: none;
+}
+.carousel-container {
+  position: relative;
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: 0;
+}
+
+
+
+
